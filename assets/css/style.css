@@ -1,0 +1,49 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+    font-family: reg;
+    src: url("../fonts/Outfit-Regular.ttf");
+}
+@font-face {
+    font-family: bol;
+    src: url("../fonts/Outfit-Bold.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 0.938rem;
+    font-family: reg ;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    margin: 0 auto 1rem;
+ font-size: 13pt;
+}
+h1{
+    font-family: bol;
+    color: hsl(218, 44%, 22%);
+    padding: 1rem;
+    margin: 0rem auto;
+    font-size: 19pt;
+}
+main{
+    background-color: white;
+    width: 20rem;
+    margin: 20vh auto 0;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+body{
+    background-color: lightgray;
+}
+section{
+    width: 20rem;
+    height: 20rem;
+    background-image: url(../img/image-qr-code.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: .5rem;
+    border-radius: 1rem;
+}
