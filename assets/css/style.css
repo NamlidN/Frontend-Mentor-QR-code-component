@@ -35,7 +35,7 @@ main{
     border-radius: 1rem;
 }
 body{
-    background-color: lightgray;
+    background-color: hsl(212, 45%, 89%);
 }
 section{
     width: 20rem;
